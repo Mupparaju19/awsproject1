@@ -1,0 +1,29 @@
+{
+  "name": "awsproject1",
+  "version": "1.0.0",
+  "description": "A simple Node.js application for deployment on AWS EC2",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/awsproject1.git"
+  },
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "eslint": "^7.10.0",
+    "dotenv": "^8.2.0"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/awsproject1/issues"
+  },
+  "homepage": "https://github.com/yourusername/awsproject1#readme"
+}
